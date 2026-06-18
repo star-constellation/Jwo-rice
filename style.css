@@ -1,0 +1,104 @@
+* {
+font-family: JetBrainsMono Nerd Font;
+font-size: 13px;
+color: #cce5ed;
+}
+
+window#waybar {
+border: 1px rgba(90, 89, 89, 0.2);
+background: rgba(90, 89, 89, 0.6);
+border-radius: 30px;
+margin: 5px;
+padding: 5px;
+}
+
+#network {
+color: rgb(255, 255, 255);
+padding: 1px;
+margin: 3px;
+font-weight: bold;
+}
+
+#custom-swifi {
+margin: 3px;
+padding: 0px;
+color: rgb(210, 196, 0);
+}
+
+#custom-btop {
+margin: 5px;
+padding: 0px;
+color: rgb(210, 196, 0);
+}
+
+#clock {
+border-radius: 30px;
+margin: 0px;
+padding: 0px;
+margin-right: 5px;
+font-weight: bold;
+}
+
+#custom-brave {
+color: rgb(255, 155, 124);
+padding: 1px;
+margin: 3px;
+font-weight: bold;
+}
+
+#custom-scripts {
+color: rgb(75, 158, 232);
+padding: 1px;
+margin: 3px;
+margin-left: 5px;
+font-weight: bold;
+}
+
+#custom-btop {
+color: rgb(173, 222, 160);
+padding: 1px;
+margin: 3px;
+font-weight: bold;
+}
+
+#pulseaudio {
+border-radius: 20px;
+margin: 2px;
+margin-right: 2px;
+padding-left: 1px;
+padding-right: 1px;
+background: rgba(126, 125, 138, 0.4);
+font-weight: bold;
+}
+
+#custom-notification {
+margin: 5px;
+padding: 0px;
+color: rgb(215, 226, 126);
+}
+
+
+#workspaces {
+margin-bottom: 0px;
+}
+
+#workspaces button {
+margin: 5px;
+padding: 0px;
+background: rgba(80, 80, 80, 0.4);
+color: #008994;
+font-weight: bold;
+border-radius: 30px;
+padding-right: 2px;
+padding-left: 2px;
+}
+
+#workspaces button.active {
+border: 1px solid rgba(255, 255, 255, 0.5);
+background: rgba(255, 255, 255, 0.5);
+color: black;
+margin: 5px;
+padding-right: 10px;
+padding-left: 10px;
+border-radius: 30px;
+}

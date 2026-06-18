@@ -1,0 +1,75 @@
+{
+"layer": "top",
+"position": "top",
+"width": 70,
+
+"modules-left": [
+"custom/scripts",
+"network",
+"custom/swifi"
+],
+
+"modules-center": [
+"hyprland/workspaces"
+],
+
+"modules-right": [
+"custom/btop",
+"custom/brave",
+"custom/notification",
+"clock",
+"pulseaudio"
+],
+
+"network": {
+"format-wifi": "   ",
+"format-ethernet": "   ",
+"format-disconnected": " 󰖪 ",
+"on-click": "kitty -e nload",
+"interval": 2
+},
+
+"custom/btop": {
+"format": " 󰟀 ",
+"on-click": "kitty -e btop"
+},
+
+"custom/scripts": {
+"format": "   ",
+"on-click": "~/.config/wofi/launcher.sh"
+},
+
+"custom/swifi": {
+"format": " 󰌶 ",
+"on-click": "Tools/./swifi.sh"
+},
+
+"custom/brave": {
+"format": " 󰇧 ",
+"on-click": "brave"
+},
+
+"clock": {
+"format": " {:%H:%M} ",
+"on-click": "kitty -e peaclock"
+},
+
+"custom/notification": {
+"format": " 󰂚 ",
+"on-click": "swaync-client -t"
+},
+
+"pulseaudio": {
+"format": "   {volume}% ",
+"on-click": "pavucontrol"
+},
+
+
+"hyprland/workspaces": {
+"format": "",
+"on-click": "activate",
+"persistent-workspaces": {
+"*": 10
+}
+}
+}
